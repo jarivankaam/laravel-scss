@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:scss": "sass --watch resources/scss/style.scss  ./public/css/app.css",
-    "test": "snyk test",
-    "monitor": "snyk monitor"
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
   },
   "repository": {
     "type": "git",

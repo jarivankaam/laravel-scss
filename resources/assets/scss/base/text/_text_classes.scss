@@ -1,0 +1,53 @@
+.text {
+    text-align: left;
+
+    &.center {
+        text-align: center;
+    }
+
+    &.right {
+        text-align: right;
+    }
+}
+
+.font {
+    &.size {
+        &.small {
+            font-size: $fontSizeSmall;
+        }
+
+        &.medium {
+            font-size: $fontSizeMedium;
+        }
+
+        &.large {
+            font-size: $fontSizeLarge;
+        }
+
+        &.xlarge {
+            font-size: $fontSizeXLarge;
+        }
+
+        &.xxlarge {
+            font-size: $fontSizeXXLarge;
+        }
+    }
+
+    &.family {
+        &.title {
+            font-family: $fontTitle;
+        }
+
+        &.body {
+            font-family: $fontBody;
+        }
+
+        &.link {
+            font-family: $fontLink;
+        }
+
+        &.special {
+            font-family: $fontSpecial;
+        }
+    }
+}
